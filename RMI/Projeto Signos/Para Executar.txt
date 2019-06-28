@@ -1,0 +1,16 @@
+As duas máquinas precisam estar conectadas pela mesma rede. 
+
+-------------------------------------------------------------
+
+Para iniciar o Servidor. (no terminal)
+
+comando : java -classpath bin -Djava.rmi.server.hostname=cole_seu_ip_aqui -Djava.rmi.server.codebase=file:bin/ ServidorDeSignos
+
+------------------------------------------------------------
+
+Para iniciar o Cliente. (também no terminal)
+vá até a pasta onde está o Cliente pelo terminal e digite o seguinte comando:
+
+java -classpath . Cliente 192.168.254.118
+
+------------------------------------------------------------
